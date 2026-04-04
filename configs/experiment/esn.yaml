@@ -1,0 +1,31 @@
+use_esn_input_std: false
+cnn: fix
+cnn_type: only_pretrain
+esn_input_form: cnn
+readout_type: logistic
+out: "esn_seq"
+group_indices: null
+
+esn_para:
+    num_reservoir: 1024
+    spectral_radius: 0.6160123380531677
+    leak_rate: 0.18659973022987072
+    density: 0.1
+    input_scale: 0.18249423552221544
+    topology: "random"
+    bidirectional: true
+    bi_merge: "concat"
+    bi_share_weights: false
+
+    jump: 7
+    w_cycle: 1.0
+    w_jump: 0.5
+    sr_power_iters: 50
+    
+readout_para:
+    learning_rate: 0.0005535221071289696
+    num_epochs: 200
+    l2: 0.0001
+    batch_size: 1024
+    patience: 100
+

@@ -1,0 +1,11 @@
+rnn_dim: 256
+num_layers: 2
+dropout: 0.3
+bidir: false
+
+readout_para:
+  learning_rate: 0.0001
+  num_epochs: 1
+  l2: 0.0001
+  batch_size: 1024
+  patience: 100
