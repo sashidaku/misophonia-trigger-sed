@@ -84,7 +84,7 @@ pip3 install -r requirements.txt
 This repository uses **fmn10** [1] as the frozen CNN backbone.
 
 Parts of the code in `third_party/EfficientSED` are adapted from the official EfficientSED codebase:
-- [EfficientSED GitHub repository](URL)
+- [EfficientSED GitHub repository](https://github.com/theMoro/EfficientSED)
 
 Please refer to the original project for the corresponding license details.
 We thank the original authors for publicly releasing their implementation.
