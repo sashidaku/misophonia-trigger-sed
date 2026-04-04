@@ -1,7 +1,6 @@
 # Misophonia Trigger Sound Detection
 
-This repository provides code for misophonia trigger sound detection on synthetic soundscapes, corresponding to the IJCNN'26 paper “[Misophonia Trigger Sound Detection on Synthetic Soundscapes Using a Hybrid Model with a Frozen Pre-Trained CNN and a Time-Series Module](https://arxiv.org/abs/2602.06271).”
-
+This repository provides code for misophonia trigger sound detection on synthetic soundscapes
 
 Misophonia is a disorder characterized by decreased tolerance to specific everyday sounds or associated cues, often referred to as *trigger sounds*. In this work, we study sound event detection (SED) for misophonia-related trigger sounds as a step toward future assistive on-device applications.
 
