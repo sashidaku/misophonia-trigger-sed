@@ -89,16 +89,3 @@ Parts of the code in `third_party/EfficientSED` are adapted from the official Ef
 Please refer to the original project for the corresponding license details.
 We thank the original authors for publicly releasing their implementation.
 
-
-## Source Dataset Licenses
-
-The source datasets used in this work have the following licenses (please refer to the linked dataset pages for the most up-to-date terms):
-
-- FOAMS: CC BY 4.0
-- MATA: CC BY-NC 4.0
-- FSD50K: Creative Commons licenses (varies by clip; see dataset metadata)
-- ESC-50: CC Attribution Non-Commercial (ESC-10 subset: CC BY)
-- VocalSound: CC BY-SA 4.0
-- SINS: CC BY 4.0 (the DCASE 2018 Task 5 data are derivatives of SINS)
-- TUT Acoustic Scenes 2017: Other (Non-Commercial)
-- MUSAN: CC BY 4.0
