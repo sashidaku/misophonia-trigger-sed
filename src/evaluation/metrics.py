@@ -155,6 +155,7 @@ def event_based_evaluation_df(
     reference_df: pd.DataFrame,
     estimated_df: pd.DataFrame,
     t_collar: float = 0.200,
+    offset_collar_rate: float = 0.2,
     percentage_of_length: float = 0.2
 ) -> sed_eval.sound_event.EventBasedMetrics:
     classes = sorted(set(reference_df.event_label.dropna().unique())
@@ -162,6 +163,10 @@ def event_based_evaluation_df(
     metric = sed_eval.sound_event.EventBasedMetrics(
         event_label_list=classes,
         t_collar=t_collar,
+        percentage_of_length=offset_collar_rate,
+        evaluate_onset=True,
+        evaluate_offset=True,
+        event_matching_type='optimal',
         percentage_of_length=percentage_of_length,
         empty_system_output_handling="zero_score",
     )
