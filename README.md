@@ -46,7 +46,7 @@ Audio clips were collected from the following public datasets and resources:
 - [VocalSound](https://github.com/YuanGongND/vocalsound)
 
 ### Background sound sources
-- [DCASE 2018 Task 5 (derived from SINS)](https://zenodo.org/records/1247102)
+- SINS [Node1](https://zenodo.org/records/2546677#.XFR-KlVKhhE), [Node2](https://zenodo.org/records/2547307#.XFR-RFVKiUk), [Node3](https://zenodo.org/records/2547309#.XFR-V1VKiUk), [Node4](https://zenodo.org/records/2555084#.XFR-d1VKiUk)
 - [TUT Acoustic Scenes 2017](https://zenodo.org/records/400515)
 - [MUSAN](https://www.openslr.org/17/)
 
