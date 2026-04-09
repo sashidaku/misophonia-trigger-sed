@@ -1,0 +1,326 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "scaper",
+      "data": [
+        {
+          "time": 0.32542182189051755,
+          "duration": 0.5546875,
+          "value": {
+            "label": "coughing",
+            "source_file": "coughing/VocalSound_f1094_0_cough_1.877_2.432_sr32000.wav",
+            "source_time": 0,
+            "event_time": 0.32542182189051755,
+            "event_duration": 0.5546875,
+            "snr": 12.418728386870674,
+            "role": "foreground",
+            "pitch_shift": -2.913966589691924,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 0.9823504131702484,
+          "duration": 0.48,
+          "value": {
+            "label": "throat_clearing",
+            "source_file": "throat_clearing/VocalSound_f1372_0_throatclearing_0.907_1.387_sr32000.wav",
+            "source_time": 0,
+            "event_time": 0.9823504131702484,
+            "event_duration": 0.48,
+            "snr": 14.915819410843635,
+            "role": "foreground",
+            "pitch_shift": 2.7212521360000776,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 2.4700906607735305,
+          "duration": 0.6501875,
+          "value": {
+            "label": "coughing",
+            "source_file": "coughing/VocalSound_m0273_0_cough_0.580_1.231_sr32000.wav",
+            "source_time": 0,
+            "event_time": 2.4700906607735305,
+            "event_duration": 0.6501875,
+            "snr": 23.08632689696953,
+            "role": "foreground",
+            "pitch_shift": -2.722124428081412,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 5.0860679988734985,
+          "duration": 0.8,
+          "value": {
+            "label": "throat_clearing",
+            "source_file": "throat_clearing/VocalSound_m1879_0_throatclearing_0.811_1.611_sr32000.wav",
+            "source_time": 0,
+            "event_time": 5.0860679988734985,
+            "event_duration": 0.8,
+            "snr": 29.203282302141332,
+            "role": "foreground",
+            "pitch_shift": -1.2892318617052214,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 8.27030038047594,
+          "duration": 0.801125,
+          "value": {
+            "label": "coughing",
+            "source_file": "coughing/VocalSound_f2598_0_cough_0.639_1.440_sr32000.wav",
+            "source_time": 0,
+            "event_time": 8.27030038047594,
+            "event_duration": 0.801125,
+            "snr": 8.562764998860349,
+            "role": "foreground",
+            "pitch_shift": -1.4426141626622673,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {
+        "scaper": {
+          "duration": 10.0,
+          "original_duration": 10.0,
+          "fg_path": "foreground",
+          "fg_spec": [
+            [
+              [
+                "const",
+                "throat_clearing"
+              ],
+              [
+                "const",
+                "throat_clearing/VocalSound_f1372_0_throatclearing_0.907_1.387_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0.9823504131702484
+              ],
+              [
+                "const",
+                0.48
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "coughing"
+              ],
+              [
+                "const",
+                "coughing/VocalSound_m0273_0_cough_0.580_1.231_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                2.4700906607735305
+              ],
+              [
+                "const",
+                0.650188
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "coughing"
+              ],
+              [
+                "const",
+                "coughing/VocalSound_f1094_0_cough_1.877_2.432_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0.32542182189051755
+              ],
+              [
+                "const",
+                0.554688
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "throat_clearing"
+              ],
+              [
+                "const",
+                "throat_clearing/VocalSound_m1879_0_throatclearing_0.811_1.611_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                5.0860679988734985
+              ],
+              [
+                "const",
+                0.8
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "coughing"
+              ],
+              [
+                "const",
+                "coughing/VocalSound_f2598_0_cough_0.639_1.440_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                8.27030038047594
+              ],
+              [
+                "const",
+                0.801125
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ]
+          ],
+          "fg_labels": [
+            "breathing",
+            "chewing",
+            "clock",
+            "coughing",
+            "sniffing",
+            "throat_clearing",
+            "typing"
+          ],
+          "protected_labels": [],
+          "sr": 16000,
+          "ref_db": -55,
+          "n_channels": 1,
+          "fade_in_len": 0.01,
+          "fade_out_len": 0.01,
+          "n_events": 5,
+          "polyphony_max": 1,
+          "polyphony_gini": 0.32800204877424144,
+          "allow_repeated_label": true,
+          "allow_repeated_source": true,
+          "reverb": null,
+          "scaper_version": "1.6.5",
+          "isolated_events_audio_path": [],
+          "fix_clipping": false,
+          "peak_normalization": false,
+          "save_isolated_events": false,
+          "disable_sox_warnings": true,
+          "no_audio": false,
+          "txt_sep": "\t",
+          "disable_instantiation_warnings": false,
+          "peak_normalization_scale_factor": 1.0,
+          "ref_db_change": 0,
+          "ref_db_generated": -55,
+          "quick_pitch_time": false
+        }
+      },
+      "time": 0,
+      "duration": 10.0
+    }
+  ],
+  "file_metadata": {
+    "title": "",
+    "artist": "",
+    "release": "",
+    "duration": 10.0,
+    "identifiers": {},
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {}
+}

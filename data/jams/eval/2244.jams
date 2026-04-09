@@ -1,0 +1,326 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "scaper",
+      "data": [
+        {
+          "time": 2.231335201839494,
+          "duration": 1.0565625,
+          "value": {
+            "label": "typing",
+            "source_file": "typing/FSD50K_413462_8.951_10.008_sr32000.wav",
+            "source_time": 0,
+            "event_time": 2.231335201839494,
+            "event_duration": 1.0565625,
+            "snr": 28.84305871369821,
+            "role": "foreground",
+            "pitch_shift": -2.704646175252987,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 2.992681366733515,
+          "duration": 0.685,
+          "value": {
+            "label": "typing",
+            "source_file": "typing/FSD50K_167256_15.418_16.103_sr32000.wav",
+            "source_time": 0,
+            "event_time": 2.992681366733515,
+            "event_duration": 0.685,
+            "snr": 25.53364863058027,
+            "role": "foreground",
+            "pitch_shift": 1.7316315201409438,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 3.749330727050269,
+          "duration": 1.66025,
+          "value": {
+            "label": "chewing",
+            "source_file": "chewing/FSD50K_419991_1.300_2.961_sr32000.wav",
+            "source_time": 0,
+            "event_time": 3.749330727050269,
+            "event_duration": 1.66025,
+            "snr": 17.07539650895753,
+            "role": "foreground",
+            "pitch_shift": -0.31470031000051657,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 9.248979269956184,
+          "duration": 0.445937,
+          "value": {
+            "label": "breathing",
+            "source_file": "breathing/FSD50K_430712_0.000_0.446_sr32000.wav",
+            "source_time": 0,
+            "event_time": 9.248979269956184,
+            "event_duration": 0.445937,
+            "snr": 29.694786129287856,
+            "role": "foreground",
+            "pitch_shift": 0.4980654151600561,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 9.711776865113158,
+          "duration": 0.2882231348868416,
+          "value": {
+            "label": "breathing",
+            "source_file": "breathing/FSD50K_434548_3.959_5.085_sr32000.wav",
+            "source_time": 0,
+            "event_time": 9.711776865113158,
+            "event_duration": 0.2882231348868416,
+            "snr": 8.399483513163911,
+            "role": "foreground",
+            "pitch_shift": 1.0707685148927482,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {
+        "scaper": {
+          "duration": 10.0,
+          "original_duration": 10.0,
+          "fg_path": "foreground",
+          "fg_spec": [
+            [
+              [
+                "const",
+                "breathing"
+              ],
+              [
+                "const",
+                "breathing/FSD50K_430712_0.000_0.446_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                9.248979269956184
+              ],
+              [
+                "const",
+                0.445937
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "chewing"
+              ],
+              [
+                "const",
+                "chewing/FSD50K_419991_1.300_2.961_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                3.749330727050269
+              ],
+              [
+                "const",
+                1.66025
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "typing"
+              ],
+              [
+                "const",
+                "typing/FSD50K_167256_15.418_16.103_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                2.992681366733515
+              ],
+              [
+                "const",
+                0.685
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "breathing"
+              ],
+              [
+                "const",
+                "breathing/FSD50K_434548_3.959_5.085_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                9.711776865113158
+              ],
+              [
+                "const",
+                0.2882231348868416
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "typing"
+              ],
+              [
+                "const",
+                "typing/FSD50K_413462_8.951_10.008_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                2.231335201839494
+              ],
+              [
+                "const",
+                1.056563
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ]
+          ],
+          "fg_labels": [
+            "breathing",
+            "chewing",
+            "clock",
+            "coughing",
+            "sniffing",
+            "throat_clearing",
+            "typing"
+          ],
+          "protected_labels": [],
+          "sr": 16000,
+          "ref_db": -55,
+          "n_channels": 1,
+          "fade_in_len": 0.01,
+          "fade_out_len": 0.01,
+          "n_events": 5,
+          "polyphony_max": 2,
+          "polyphony_gini": 0.3583493759676907,
+          "allow_repeated_label": true,
+          "allow_repeated_source": true,
+          "reverb": null,
+          "scaper_version": "1.6.5",
+          "isolated_events_audio_path": [],
+          "fix_clipping": false,
+          "peak_normalization": false,
+          "save_isolated_events": false,
+          "disable_sox_warnings": true,
+          "no_audio": false,
+          "txt_sep": "\t",
+          "disable_instantiation_warnings": false,
+          "peak_normalization_scale_factor": 1.0,
+          "ref_db_change": 0,
+          "ref_db_generated": -55,
+          "quick_pitch_time": false
+        }
+      },
+      "time": 0,
+      "duration": 10.0
+    }
+  ],
+  "file_metadata": {
+    "title": "",
+    "artist": "",
+    "release": "",
+    "duration": 10.0,
+    "identifiers": {},
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {}
+}

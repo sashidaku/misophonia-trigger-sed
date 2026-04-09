@@ -1,0 +1,426 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "scaper",
+      "data": [
+        {
+          "time": 0.8149763072177086,
+          "duration": 3.517875,
+          "value": {
+            "label": "chewing",
+            "source_file": "chewing/FSD50K_428933_0.000_3.518_sr32000.wav",
+            "source_time": 0,
+            "event_time": 0.8149763072177086,
+            "event_duration": 3.517875,
+            "snr": 29.03788062093521,
+            "role": "foreground",
+            "pitch_shift": -2.323226236130198,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 1.5269865526852433,
+          "duration": 0.512,
+          "value": {
+            "label": "throat_clearing",
+            "source_file": "throat_clearing/VocalSound_f0888_0_throatclearing_1.259_1.771_sr32000.wav",
+            "source_time": 0,
+            "event_time": 1.5269865526852433,
+            "event_duration": 0.512,
+            "snr": 16.273114441165088,
+            "role": "foreground",
+            "pitch_shift": 2.6346424306445515,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 2.2236925669605987,
+          "duration": 0.906687,
+          "value": {
+            "label": "coughing",
+            "source_file": "coughing/VocalSound_m0303_0_cough_0.597_1.504_sr32000.wav",
+            "source_time": 0,
+            "event_time": 2.2236925669605987,
+            "event_duration": 0.906687,
+            "snr": 16.747607994276446,
+            "role": "foreground",
+            "pitch_shift": -2.4775348924882796,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 5.1928887116686955,
+          "duration": 0.7146875,
+          "value": {
+            "label": "throat_clearing",
+            "source_file": "throat_clearing/VocalSound_f2861_0_throatclearing_0.779_1.493_sr32000.wav",
+            "source_time": 0,
+            "event_time": 5.1928887116686955,
+            "event_duration": 0.7146875,
+            "snr": 25.801647952675967,
+            "role": "foreground",
+            "pitch_shift": 2.389948031729853,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 6.420368138737034,
+          "duration": 0.429625,
+          "value": {
+            "label": "sniffing",
+            "source_file": "sniffing/VocalSound_m2850_0_sniff_1.219_1.649_sr32000.wav",
+            "source_time": 0,
+            "event_time": 6.420368138737034,
+            "event_duration": 0.429625,
+            "snr": 23.530427427793114,
+            "role": "foreground",
+            "pitch_shift": -2.341059684880757,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 7.001056473570064,
+          "duration": 0.2666875,
+          "value": {
+            "label": "throat_clearing",
+            "source_file": "throat_clearing/VocalSound_f0753_0_throatclearing_3.701_3.968_sr32000.wav",
+            "source_time": 0,
+            "event_time": 7.001056473570064,
+            "event_duration": 0.2666875,
+            "snr": 19.03035611316879,
+            "role": "foreground",
+            "pitch_shift": 2.9287652172274328,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 9.207349971417749,
+          "duration": 0.7926500285822513,
+          "value": {
+            "label": "coughing",
+            "source_file": "coughing/VocalSound_f2806_0_cough_8.939_10.187_sr32000.wav",
+            "source_time": 0,
+            "event_time": 9.207349971417749,
+            "event_duration": 0.7926500285822513,
+            "snr": 6.3994487337320125,
+            "role": "foreground",
+            "pitch_shift": -2.383580800174188,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {
+        "scaper": {
+          "duration": 10.0,
+          "original_duration": 10.0,
+          "fg_path": "foreground",
+          "fg_spec": [
+            [
+              [
+                "const",
+                "throat_clearing"
+              ],
+              [
+                "const",
+                "throat_clearing/VocalSound_f2861_0_throatclearing_0.779_1.493_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                5.1928887116686955
+              ],
+              [
+                "const",
+                0.714688
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "sniffing"
+              ],
+              [
+                "const",
+                "sniffing/VocalSound_m2850_0_sniff_1.219_1.649_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                6.420368138737034
+              ],
+              [
+                "const",
+                0.429625
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "coughing"
+              ],
+              [
+                "const",
+                "coughing/VocalSound_f2806_0_cough_8.939_10.187_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                9.207349971417749
+              ],
+              [
+                "const",
+                0.7926500285822513
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "chewing"
+              ],
+              [
+                "const",
+                "chewing/FSD50K_428933_0.000_3.518_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                0.8149763072177086
+              ],
+              [
+                "const",
+                3.517875
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "throat_clearing"
+              ],
+              [
+                "const",
+                "throat_clearing/VocalSound_f0888_0_throatclearing_1.259_1.771_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                1.5269865526852433
+              ],
+              [
+                "const",
+                0.512
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "throat_clearing"
+              ],
+              [
+                "const",
+                "throat_clearing/VocalSound_f0753_0_throatclearing_3.701_3.968_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                7.001056473570064
+              ],
+              [
+                "const",
+                0.266688
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "coughing"
+              ],
+              [
+                "const",
+                "coughing/VocalSound_m0303_0_cough_0.597_1.504_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                2.2236925669605987
+              ],
+              [
+                "const",
+                0.906687
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ]
+          ],
+          "fg_labels": [
+            "breathing",
+            "chewing",
+            "clock",
+            "coughing",
+            "sniffing",
+            "throat_clearing",
+            "typing"
+          ],
+          "protected_labels": [],
+          "sr": 16000,
+          "ref_db": -55,
+          "n_channels": 1,
+          "fade_in_len": 0.01,
+          "fade_out_len": 0.01,
+          "n_events": 7,
+          "polyphony_max": 2,
+          "polyphony_gini": 0.4874035141209593,
+          "allow_repeated_label": true,
+          "allow_repeated_source": true,
+          "reverb": null,
+          "scaper_version": "1.6.5",
+          "isolated_events_audio_path": [],
+          "fix_clipping": false,
+          "peak_normalization": false,
+          "save_isolated_events": false,
+          "disable_sox_warnings": true,
+          "no_audio": false,
+          "txt_sep": "\t",
+          "disable_instantiation_warnings": false,
+          "peak_normalization_scale_factor": 1.0,
+          "ref_db_change": 0,
+          "ref_db_generated": -55,
+          "quick_pitch_time": false
+        }
+      },
+      "time": 0,
+      "duration": 10.0
+    }
+  ],
+  "file_metadata": {
+    "title": "",
+    "artist": "",
+    "release": "",
+    "duration": 10.0,
+    "identifiers": {},
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {}
+}

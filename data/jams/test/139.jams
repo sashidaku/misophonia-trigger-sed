@@ -1,0 +1,326 @@
+{
+  "annotations": [
+    {
+      "annotation_metadata": {
+        "curator": {
+          "name": "",
+          "email": ""
+        },
+        "annotator": {},
+        "version": "",
+        "corpus": "",
+        "annotation_tools": "",
+        "annotation_rules": "",
+        "validation": "",
+        "data_source": ""
+      },
+      "namespace": "scaper",
+      "data": [
+        {
+          "time": 1.3143610160828763,
+          "duration": 0.6385625,
+          "value": {
+            "label": "chewing",
+            "source_file": "chewing/FSD50K_330835_1.927_2.566_sr32000.wav",
+            "source_time": 0,
+            "event_time": 1.3143610160828763,
+            "event_duration": 0.6385625,
+            "snr": 19.89559441956011,
+            "role": "foreground",
+            "pitch_shift": 0.26749519159262114,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 3.2624059678097694,
+          "duration": 0.32,
+          "value": {
+            "label": "chewing",
+            "source_file": "chewing/MATA_norm_mono_000_bitingchewingPepper1_2.656_2.976_sr32000.wav",
+            "source_time": 0,
+            "event_time": 3.2624059678097694,
+            "event_duration": 0.32,
+            "snr": 19.014822515098587,
+            "role": "foreground",
+            "pitch_shift": -1.2752880498204162,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 6.375823801022451,
+          "duration": 1.0986875,
+          "value": {
+            "label": "chewing",
+            "source_file": "chewing/MATA_norm_mono_028_bitingchewingCracker2_3.904_5.003_sr32000.wav",
+            "source_time": 0,
+            "event_time": 6.375823801022451,
+            "event_duration": 1.0986875,
+            "snr": 7.974982705067471,
+            "role": "foreground",
+            "pitch_shift": 0.30827802718483177,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 8.234172545848981,
+          "duration": 0.976,
+          "value": {
+            "label": "chewing",
+            "source_file": "chewing/MATA_norm_mono_000_bitingchewingPepper1_0.912_1.888_sr32000.wav",
+            "source_time": 0,
+            "event_time": 8.234172545848981,
+            "event_duration": 0.976,
+            "snr": 28.797693961102247,
+            "role": "foreground",
+            "pitch_shift": -0.8368336058548786,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        },
+        {
+          "time": 9.602845234203711,
+          "duration": 0.341375,
+          "value": {
+            "label": "sniffing",
+            "source_file": "sniffing/VocalSound_m1823_0_sniff_2.880_3.221_sr32000.wav",
+            "source_time": 0,
+            "event_time": 9.602845234203711,
+            "event_duration": 0.341375,
+            "snr": 8.94763400121511,
+            "role": "foreground",
+            "pitch_shift": -0.5229327988694528,
+            "time_stretch": null
+          },
+          "confidence": 1.0
+        }
+      ],
+      "sandbox": {
+        "scaper": {
+          "duration": 10.0,
+          "original_duration": 10.0,
+          "fg_path": "foreground",
+          "fg_spec": [
+            [
+              [
+                "const",
+                "chewing"
+              ],
+              [
+                "const",
+                "chewing/MATA_norm_mono_000_bitingchewingPepper1_2.656_2.976_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                3.2624059678097694
+              ],
+              [
+                "const",
+                0.32
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "chewing"
+              ],
+              [
+                "const",
+                "chewing/MATA_norm_mono_028_bitingchewingCracker2_3.904_5.003_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                6.375823801022451
+              ],
+              [
+                "const",
+                1.098688
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "chewing"
+              ],
+              [
+                "const",
+                "chewing/MATA_norm_mono_000_bitingchewingPepper1_0.912_1.888_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                8.234172545848981
+              ],
+              [
+                "const",
+                0.976
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "chewing"
+              ],
+              [
+                "const",
+                "chewing/FSD50K_330835_1.927_2.566_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                1.3143610160828763
+              ],
+              [
+                "const",
+                0.638563
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ],
+            [
+              [
+                "const",
+                "sniffing"
+              ],
+              [
+                "const",
+                "sniffing/VocalSound_m1823_0_sniff_2.880_3.221_sr32000.wav"
+              ],
+              [
+                "const",
+                0
+              ],
+              [
+                "const",
+                9.602845234203711
+              ],
+              [
+                "const",
+                0.341375
+              ],
+              [
+                "uniform",
+                6,
+                30
+              ],
+              "foreground",
+              [
+                "uniform",
+                -3,
+                3
+              ],
+              null
+            ]
+          ],
+          "fg_labels": [
+            "breathing",
+            "chewing",
+            "clock",
+            "coughing",
+            "sniffing",
+            "throat_clearing",
+            "typing"
+          ],
+          "protected_labels": [],
+          "sr": 16000,
+          "ref_db": -55,
+          "n_channels": 1,
+          "fade_in_len": 0.01,
+          "fade_out_len": 0.01,
+          "n_events": 5,
+          "polyphony_max": 1,
+          "polyphony_gini": 0.33700196735321253,
+          "allow_repeated_label": true,
+          "allow_repeated_source": true,
+          "reverb": null,
+          "scaper_version": "1.6.5",
+          "isolated_events_audio_path": [],
+          "fix_clipping": false,
+          "peak_normalization": false,
+          "save_isolated_events": false,
+          "disable_sox_warnings": true,
+          "no_audio": false,
+          "txt_sep": "\t",
+          "disable_instantiation_warnings": false,
+          "peak_normalization_scale_factor": 1.0,
+          "ref_db_change": 0,
+          "ref_db_generated": -55,
+          "quick_pitch_time": false
+        }
+      },
+      "time": 0,
+      "duration": 10.0
+    }
+  ],
+  "file_metadata": {
+    "title": "",
+    "artist": "",
+    "release": "",
+    "duration": 10.0,
+    "identifiers": {},
+    "jams_version": "0.3.4"
+  },
+  "sandbox": {}
+}
